@@ -34,5 +34,6 @@ public class TestRole extends BaseTest {
     public void post() throws Exception {
         ResponseEntity<String> body = this.restTemplate.postForEntity("/role/list", "", String.class);
         System.out.println(body);
+        //
     }
 }
